@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		506194891E685ED200C4CBE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506194881E685ED200C4CBE2 /* AppDelegate.swift */; };
+		5061948B1E685ED200C4CBE2 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5061948A1E685ED200C4CBE2 /* FirstViewController.swift */; };
+		5061948D1E685ED200C4CBE2 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5061948C1E685ED200C4CBE2 /* SecondViewController.swift */; };
+		506194901E685ED200C4CBE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5061948E1E685ED200C4CBE2 /* Main.storyboard */; };
+		506194921E685ED200C4CBE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 506194911E685ED200C4CBE2 /* Assets.xcassets */; };
+		506194951E685ED200C4CBE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 506194931E685ED200C4CBE2 /* LaunchScreen.storyboard */; };
+		506194A01E685ED200C4CBE2 /* Web_Tech_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5061949F1E685ED200C4CBE2 /* Web_Tech_2Tests.swift */; };
+		506194AB1E685ED200C4CBE2 /* Web_Tech_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506194AA1E685ED200C4CBE2 /* Web_Tech_2UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5061949C1E685ED200C4CBE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5061947D1E685ED200C4CBE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 506194841E685ED200C4CBE2;
+			remoteInfo = "Web Tech 2";
+		};
+		506194A71E685ED200C4CBE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5061947D1E685ED200C4CBE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 506194841E685ED200C4CBE2;
+			remoteInfo = "Web Tech 2";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		506194851E685ED200C4CBE2 /* Web Tech 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Web Tech 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		506194881E685ED200C4CBE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5061948A1E685ED200C4CBE2 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		5061948C1E685ED200C4CBE2 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		5061948F1E685ED200C4CBE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		506194911E685ED200C4CBE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		506194941E685ED200C4CBE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		506194961E685ED200C4CBE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5061949B1E685ED200C4CBE2 /* Web Tech 2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Web Tech 2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5061949F1E685ED200C4CBE2 /* Web_Tech_2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Web_Tech_2Tests.swift; sourceTree = "<group>"; };
+		506194A11E685ED200C4CBE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		506194A61E685ED200C4CBE2 /* Web Tech 2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Web Tech 2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		506194AA1E685ED200C4CBE2 /* Web_Tech_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Web_Tech_2UITests.swift; sourceTree = "<group>"; };
+		506194AC1E685ED200C4CBE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		506194821E685ED200C4CBE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		506194981E685ED200C4CBE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		506194A31E685ED200C4CBE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5061947C1E685ED200C4CBE2 = {
+			isa = PBXGroup;
+			children = (
+				506194871E685ED200C4CBE2 /* Web Tech 2 */,
+				5061949E1E685ED200C4CBE2 /* Web Tech 2Tests */,
+				506194A91E685ED200C4CBE2 /* Web Tech 2UITests */,
+				506194861E685ED200C4CBE2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		506194861E685ED200C4CBE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				506194851E685ED200C4CBE2 /* Web Tech 2.app */,
+				5061949B1E685ED200C4CBE2 /* Web Tech 2Tests.xctest */,
+				506194A61E685ED200C4CBE2 /* Web Tech 2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		506194871E685ED200C4CBE2 /* Web Tech 2 */ = {
+			isa = PBXGroup;
+			children = (
+				506194881E685ED200C4CBE2 /* AppDelegate.swift */,
+				5061948A1E685ED200C4CBE2 /* FirstViewController.swift */,
+				5061948C1E685ED200C4CBE2 /* SecondViewController.swift */,
+				5061948E1E685ED200C4CBE2 /* Main.storyboard */,
+				506194911E685ED200C4CBE2 /* Assets.xcassets */,
+				506194931E685ED200C4CBE2 /* LaunchScreen.storyboard */,
+				506194961E685ED200C4CBE2 /* Info.plist */,
+			);
+			path = "Web Tech 2";
+			sourceTree = "<group>";
+		};
+		5061949E1E685ED200C4CBE2 /* Web Tech 2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5061949F1E685ED200C4CBE2 /* Web_Tech_2Tests.swift */,
+				506194A11E685ED200C4CBE2 /* Info.plist */,
+			);
+			path = "Web Tech 2Tests";
+			sourceTree = "<group>";
+		};
+		506194A91E685ED200C4CBE2 /* Web Tech 2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				506194AA1E685ED200C4CBE2 /* Web_Tech_2UITests.swift */,
+				506194AC1E685ED200C4CBE2 /* Info.plist */,
+			);
+			path = "Web Tech 2UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		506194841E685ED200C4CBE2 /* Web Tech 2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 506194AF1E685ED200C4CBE2 /* Build configuration list for PBXNativeTarget "Web Tech 2" */;
+			buildPhases = (
+				506194811E685ED200C4CBE2 /* Sources */,
+				506194821E685ED200C4CBE2 /* Frameworks */,
+				506194831E685ED200C4CBE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Web Tech 2";
+			productName = "Web Tech 2";
+			productReference = 506194851E685ED200C4CBE2 /* Web Tech 2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5061949A1E685ED200C4CBE2 /* Web Tech 2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 506194B21E685ED200C4CBE2 /* Build configuration list for PBXNativeTarget "Web Tech 2Tests" */;
+			buildPhases = (
+				506194971E685ED200C4CBE2 /* Sources */,
+				506194981E685ED200C4CBE2 /* Frameworks */,
+				506194991E685ED200C4CBE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5061949D1E685ED200C4CBE2 /* PBXTargetDependency */,
+			);
+			name = "Web Tech 2Tests";
+			productName = "Web Tech 2Tests";
+			productReference = 5061949B1E685ED200C4CBE2 /* Web Tech 2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		506194A51E685ED200C4CBE2 /* Web Tech 2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 506194B51E685ED200C4CBE2 /* Build configuration list for PBXNativeTarget "Web Tech 2UITests" */;
+			buildPhases = (
+				506194A21E685ED200C4CBE2 /* Sources */,
+				506194A31E685ED200C4CBE2 /* Frameworks */,
+				506194A41E685ED200C4CBE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				506194A81E685ED200C4CBE2 /* PBXTargetDependency */,
+			);
+			name = "Web Tech 2UITests";
+			productName = "Web Tech 2UITests";
+			productReference = 506194A61E685ED200C4CBE2 /* Web Tech 2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5061947D1E685ED200C4CBE2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Muazzem Helal";
+				TargetAttributes = {
+					506194841E685ED200C4CBE2 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					5061949A1E685ED200C4CBE2 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 506194841E685ED200C4CBE2;
+					};
+					506194A51E685ED200C4CBE2 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 506194841E685ED200C4CBE2;
+					};
+				};
+			};
+			buildConfigurationList = 506194801E685ED200C4CBE2 /* Build configuration list for PBXProject "Web Tech 2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5061947C1E685ED200C4CBE2;
+			productRefGroup = 506194861E685ED200C4CBE2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				506194841E685ED200C4CBE2 /* Web Tech 2 */,
+				5061949A1E685ED200C4CBE2 /* Web Tech 2Tests */,
+				506194A51E685ED200C4CBE2 /* Web Tech 2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		506194831E685ED200C4CBE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				506194951E685ED200C4CBE2 /* LaunchScreen.storyboard in Resources */,
+				506194921E685ED200C4CBE2 /* Assets.xcassets in Resources */,
+				506194901E685ED200C4CBE2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		506194991E685ED200C4CBE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		506194A41E685ED200C4CBE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		506194811E685ED200C4CBE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5061948D1E685ED200C4CBE2 /* SecondViewController.swift in Sources */,
+				506194891E685ED200C4CBE2 /* AppDelegate.swift in Sources */,
+				5061948B1E685ED200C4CBE2 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		506194971E685ED200C4CBE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				506194A01E685ED200C4CBE2 /* Web_Tech_2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		506194A21E685ED200C4CBE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				506194AB1E685ED200C4CBE2 /* Web_Tech_2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5061949D1E685ED200C4CBE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 506194841E685ED200C4CBE2 /* Web Tech 2 */;
+			targetProxy = 5061949C1E685ED200C4CBE2 /* PBXContainerItemProxy */;
+		};
+		506194A81E685ED200C4CBE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 506194841E685ED200C4CBE2 /* Web Tech 2 */;
+			targetProxy = 506194A71E685ED200C4CBE2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5061948E1E685ED200C4CBE2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5061948F1E685ED200C4CBE2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		506194931E685ED200C4CBE2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				506194941E685ED200C4CBE2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		506194AD1E685ED200C4CBE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		506194AE1E685ED200C4CBE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		506194B01E685ED200C4CBE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Web Tech 2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Web-Tech-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		506194B11E685ED200C4CBE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Web Tech 2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Web-Tech-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		506194B31E685ED200C4CBE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Web Tech 2Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Web-Tech-2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Web Tech 2.app/Web Tech 2";
+			};
+			name = Debug;
+		};
+		506194B41E685ED200C4CBE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Web Tech 2Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Web-Tech-2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Web Tech 2.app/Web Tech 2";
+			};
+			name = Release;
+		};
+		506194B61E685ED200C4CBE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Web Tech 2UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Web-Tech-2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Web Tech 2";
+			};
+			name = Debug;
+		};
+		506194B71E685ED200C4CBE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Web Tech 2UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Web-Tech-2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Web Tech 2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		506194801E685ED200C4CBE2 /* Build configuration list for PBXProject "Web Tech 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				506194AD1E685ED200C4CBE2 /* Debug */,
+				506194AE1E685ED200C4CBE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		506194AF1E685ED200C4CBE2 /* Build configuration list for PBXNativeTarget "Web Tech 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				506194B01E685ED200C4CBE2 /* Debug */,
+				506194B11E685ED200C4CBE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		506194B21E685ED200C4CBE2 /* Build configuration list for PBXNativeTarget "Web Tech 2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				506194B31E685ED200C4CBE2 /* Debug */,
+				506194B41E685ED200C4CBE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		506194B51E685ED200C4CBE2 /* Build configuration list for PBXNativeTarget "Web Tech 2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				506194B61E685ED200C4CBE2 /* Debug */,
+				506194B71E685ED200C4CBE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5061947D1E685ED200C4CBE2 /* Project object */;
+}
